@@ -1,17 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
-	ft "web/features"
+	web "ascii_art_web/web_server"
 )
 
 func main() {
-	http.HandleFunc("/ascii-art", ft.AsciiArt)
-	http.HandleFunc("/", ft.Index)
-	err := http.ListenAndServe(":8081", nil)
-	if err != nil {
-		fmt.Print(err)
-	}
+	http.HandleFunc("/", web.Index)
+	http.HandleFunc("/ascii-art", web.Generate)
+	http.ListenAndServe(":8080", nil)
 }

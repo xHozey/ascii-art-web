@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii_Art Generator</title>
+</head>
+<body>
+    <center>
+        <h1>ascii-art generator</h1>
+        <form action="/ascii-art" method="POST">
+            <textarea rows= "15" cols= "35" name="text" placeholder="Write your text here..." required></textarea>
+            <p></p> 
+            <div>
+                <label for="standard">
+                    <input type="radio" name="banner" id="standard" value="standard" checked>Standard
+                </label>
+                <label for="shadow">
+                    <input type="radio" name="banner" id="shadow" value="shadow">Shadow
+                </label>
+                <label for="thinkertoy">
+                    <input type="radio" name="banner" id="thinkertoy" value="thinkertoy">Thinkertoy
+                </label>
+                <label for="graffiti">
+                    <input type="radio" name="banner" id="graffiti" value="graffiti">Graffiti
+                </label> 
+            </div>
+            <br></br> 
+        <button class="btn" id="submit" type="submit">generate</button>
+        </form>
+    </center>
+</body>
+</html>
