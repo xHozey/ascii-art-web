@@ -15,15 +15,6 @@
 
     *Enter text into the designated area, choose your preferred font style, and then click 'Generate' to create your ASCII art.*
 
-  - #### example
-
-         _    _          _   _                __          __                 _       _  
-        | |  | |        | | | |               \ \        / /                | |     | | 
-        | |__| |   ___  | | | |   ___          \ \  /\  / /    ___    _ __  | |   __| | 
-        |  __  |  / _ \ | | | |  / _ \          \ \/  \/ /    / _ \  | '__| | |  / _` | 
-        | |  | | |  __/ | | | | | (_) |          \  /\  /    | (_) | | |    | | | (_| | 
-        |_|  |_|  \___| |_| |_|  \___/            \/  \/      \___/  |_|    |_|  \__,_| 
-
 
 - ### **Implementation details**
 
@@ -40,3 +31,11 @@
         *For each character in the input text Determine its ASCII code using standard encoding methods. Retrieve the corresponding ASCII art representation from the stored mapping based on the character's ASCII code. Rendering Construct the ASCII art output by concatenating the ASCII art representations retrieved for each character in the input text.*
 
      - **Output:** *Display or return the generated ASCII art to the user.*
+
+
+             _    _          _   _                __          __                 _       _  
+            | |  | |        | | | |               \ \        / /                | |     | | 
+            | |__| |   ___  | | | |   ___          \ \  /\  / /    ___    _ __  | |   __| | 
+            |  __  |  / _ \ | | | |  / _ \          \ \/  \/ /    / _ \  | '__| | |  / _` | 
+            | |  | | |  __/ | | | | | (_) |          \  /\  /    | (_) | | |    | | | (_| | 
+            |_|  |_|  \___| |_| |_|  \___/            \/  \/      \___/  |_|    |_|  \__,_| 
